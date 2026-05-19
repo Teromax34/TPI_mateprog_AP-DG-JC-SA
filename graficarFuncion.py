@@ -5,7 +5,7 @@ a = []
 b = []
 c = []
 
-for i in range(0,50):
+for i in range(0,51,5):
     x.append(i)
 
     a.append(40*i + 200)
