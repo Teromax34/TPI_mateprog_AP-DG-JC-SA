@@ -10,3 +10,10 @@ for fila in m:
     total += numero
   promedio= total/ len(fila)
   print(promedio)
+  
+print("promedio por servidor es de:")
+for i in range(len(m[0])):
+    suma=0
+    for j in range(len(m)):
+        suma +=m[j][i]
+    print(suma/ len(m))
