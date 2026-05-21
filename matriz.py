@@ -17,3 +17,13 @@ for i in range(len(m[0])):
     for j in range(len(m)):
         suma +=m[j][i]
     print(suma/ len(m))
+
+print("\nmatriz transpuesta:")
+mt=[]
+for i in range (len(m[0])):
+    fila= []
+    for j in range (len(m)):
+        fila.append(m[i][j])
+    mt.append(m[i][j])
+for fila in mt:
+    print(fila)
