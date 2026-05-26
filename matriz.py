@@ -23,7 +23,7 @@ mt=[]
 for i in range (len(m[0])):
     fila= []
     for j in range (len(m)):
-        fila.append(m[i][j])
-    mt.append(m[i][j])
+        fila.append(m[j][i])
+    mt.append(fila)
 for fila in mt:
     print(fila)
